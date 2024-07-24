@@ -88,7 +88,7 @@ duration:2
         <p className='font-bold text-xl text-[#0A66C2]'>   <ReactTyped strings={["MERN stack developer","Looking for Oppurtunities","Welcome to my Portfolio"]} typeSpeed={70} backSpeed={50} loop/></p>
       
 
-        <button className='bg-[#4070F4] w-[140px] font-bold border-purple-400 p-4 rounded-2xl text-white'>About me</button>
+       <Link to="/about"><button className='bg-[#4070F4] w-[140px] font-bold border-purple-400 p-4 rounded-2xl text-white'>About me</button></Link> 
 
         <div className="social">
             <nav>
