@@ -127,12 +127,12 @@ duration:2
         }} />
         <nav className='my-8 h-screen w-screen' >
             <ul className='nav-links flex gap-7 font-bold flex-col items-center justify-center ' >
-                <li className='hover:border-b-2 border-[#FE46BE] cursor-pointer transition-all ease-in-out duration-100 p-2 ' >Home</li>
-                <li className='hover:border-b-2 border-[blue]  cursor-pointer transition-all ease-in-out duration-100 p-2'>About</li>
-                <li className='hover:border-b-2 border-[#0AE448] cursor-pointer  transition-all ease-in-out duration-100 p-2'> Skills</li>
-                <li className='hover:border-b-2 border-[#BFBFC9] cursor-pointer transition-all ease-in-out duration-100 p-2'>Education</li>
+            <Link to="/"> <li className='hover:border-b-2 border-[#FE46BE] cursor-pointer transition-all ease-in-out duration-100 p-2 ' >Home</li></Link>
+               <Link to="/about">   <li className='hover:border-b-2 border-[blue] cursor-pointer  transition-all ease-in-out duration-100 p-2'>About</li></Link>
+               <Link to="/skills">  <li className='hover:border-b-2 border-[#0AE448]  cursor-pointer transition-all ease-in-out duration-100 p-2'> Skills</li></Link>
+               <Link to="/education">    <li className='hover:border-b-2 border-[#BFBFC9] cursor-pointer transition-all ease-in-out duration-100 p-2'>Education</li></Link> 
                 {/* <li className='hover:border-b-2 border-cyan-400  transition-all ease-in-out duration-100 p-2'> Projects</li> */}
-                <li className='hover:border-b-2 border-purple-800 cursor-pointer transition-all ease-in-out duration-100 p-2 '>Contact</li>
+                <Link to="/contact">  <li className='hover:border-b-2 border-purple-800 cursor-pointer transition-all ease-in-out duration-100 p-2 '>Contact</li></Link>
             </ul>
         </nav>
         </div>
